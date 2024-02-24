@@ -6,7 +6,7 @@ setup(
     packages = find_packages(exclude=['test*']),
     license='MIT',
     description='EDSA my first Python pagckage',
-    long_description=open('README').open(),
+    long_description=open('README.md').read(),
     install_requires =['numpy'],
     url='https://github.com /<Edem-Gbafa>/<mypackage>',
     author='<Edem Gbafa>',
